@@ -1,0 +1,540 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: fantasy;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 150px;
+  background-color: #383838;
+  position: fixed;
+ /* top: 0;
+  left: 0;*/
+  width: 100%;
+  z-index: 2;
+}
+
+.logo-text{
+
+  line-height: 0px;
+  font-size: 40px;
+  align-items: center;
+  font-family: fantasy;
+}
+
+.logo-img{
+
+  vertical-align: middle;
+  margin: -83px 0em -1em 7em;
+
+}
+
+header a {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 40px;
+  margin: 0 1em;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+ header nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 45px; left: 35%;
+  letter-spacing: 1px;
+
+
+}
+.html_oper1{
+    padding: 0 40px 0 10px;
+    color: #fff;
+    border-radius: 20px;
+    background: #474747  10px center;
+    font: 500 14px/36px 'Montserrat Alternates',sans-serif;
+    position: absolute;
+    top: -5px; left: 10px;
+}
+.html_oper2{
+    position: absolute;
+    top: 7px; left: 130px;
+}
+.background{
+    background-repeat: no-repeat;
+    margin: 0em 0em -1em 0em;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+footer{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+footer{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #383838;
+    padding: 70px 0px;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0px 90px;
+
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+    background-color: #FFD700;
+	height: 2px;
+	box-sizing: border-box;
+	width: 100px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.forlogo{
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 40px;
+  margin: 3em 0em -1em -4em;
+}
+
+.logo-text2{
+
+  line-height: 0px;
+  font-size: 40px;
+  align-items: center;
+  font-family: fantasy;
+
+}
+
+.logo-img2{
+
+  vertical-align: middle;
+  margin: -85px 0em -1em 7em;
+
+}
+.town{
+    color: #ffffff;
+    padding: 130px 20px 0px 20px;
+	width: 190px;
+}
+
+.rights{
+    color: #ffffff;
+    margin: auto;
+    font-size: 12px;
+    position: absolute;
+    right: 87%;
+    bottom: -1895px;
+
+}
+
+/* полоса между фоном */
+/* полоса между фоном */
+
+.home-advantages {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #474747;
+}
+
+.glav{
+  position: relative;
+  top: -20px; left: 670px;
+  margin: 0 0 0 0;
+  width: 430px;
+  color: white;
+  line-height: 1;
+  font-family: Gill Sans, sans-serif;
+}
+
+.operation {
+  display: inline-table;
+  margin: 0 75px 0 75px;
+  width: 400px;
+  height: 220px;
+  background: #383838;
+  border-radius: 30px;
+}
+
+.operation h3{
+    color: white;
+    width: 300px;
+    height: 30px;
+    font-size: 24px;
+    /*letter-spacing: 1px;
+
+    /* text-align: center;*/
+    text-align: center;
+    line-height: 1;
+    font-family: Gill Sans, sans-serif;
+    position: relative;
+    top: -30px;
+    margin: 0 50px 0px 50px;
+
+}
+
+.img-control{
+    position: absolute;
+    top: -10px; left: 280px;
+}
+
+.numbImg{
+    position: relative;
+    top: 10px;
+}
+
+.operation-text{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #bfbfbf;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-size: 17px;
+    font-family: Gill Sans, sans-serif;
+}
+
+.operation div{
+    margin: 20px 0px 0px 20px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 100%;
+    border: 1px solid white;
+    background: #383838;
+    font: 100 15px/15px 'Montserrat Alternates',Andale Mono;
+
+     padding: 11px 15.5px;
+}
+
+/* полоса между фоном */
+/* полоса между фоном */
+
+.centralBlock {
+    color: white;
+    position: absolute;
+    top: 187%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.topBlock {
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 180px;
+    font-size: 24px;
+    letter-spacing: 1.6px;
+    /*text-shadow: 3px 2px 3px black,
+                 2px 2px 2px black;
+    /* text-align: center;*/
+    line-height: 0.4;
+     font-family: sans-serif;
+}
+
+.text4{
+    line-height: 1.3;
+    letter-spacing: 1.6px;
+    font-size: 22px;
+    width: 530px;
+    height: 100%;
+    color: #bbbbbb;
+}
+.colorGold{
+    color: gold;
+    font-size: 24px;
+    line-height: 0.8;
+
+}
+
+.imgForCredit{
+    position: absolute;
+    top: 115px;
+    right: 100px;
+}
+.backBlock{
+    padding: 0 30px 0 30px;
+    color: #fff;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: #383838;
+    font: 500 15px/10px 'Montserrat Alternates',Andale Mono;
+    position: absolute;
+    top: -50px; left: 20px;
+}
+
+/* партнёрка */
+
+.main-partner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #474747;
+}
+
+.partner{
+  display: inline-flex;
+
+
+}
+
+.partner div{
+  margin: 0 75px 0px 75px;
+}
+.partner1{
+
+  position: relative;
+  top: 40px;
+
+}
+.partner2{
+
+  position: relative;
+  top: 55px;
+}
+.partner3{
+
+  position: relative;
+  top: 20px;
+}
+.partner4{
+
+  position: relative;
+  top: 13px;
+}
+
+.partner5{
+
+  position: relative;
+  top: 80px;
+}
+/* партнёрка */
+
+.payment-structure{
+
+  width: 1200px;
+  height: 460px;
+  background: #383838;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.payment-structure div{
+    margin: 40px;
+
+}
+
+.backg2{
+  width: 1200px;
+  height: 90px;
+  background: #474747;
+  border-radius: 20px;
+  border: 1px solid black;
+  position: absolute;
+  top: 0%;
+  left: 46.7%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+
+.canter{
+    color: white;
+    font: 600 25px/10px 'Montserrat Alternates',Andale Mono;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.str1{
+    color: white;
+    font: 400 22px/10px 'Montserrat Alternates',Andale Mono;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.str2{
+    display: inline-table;
+    color: white;
+    font: 400 20px/20px 'Montserrat Alternates',Andale Mono;
+    width: 500px;
+    text-align: center;
+    position: relative;
+
+    left: 5%;
+
+}
+
+.str3{
+    display: inline-table;
+    color: black;
+    font: 600 15px/30px 'Montserrat Alternates',Andale Mono;
+    width: 500px;
+    position: relative;
+    left: 5.3%;
+}
+
+.str4{
+    display: inline-table;
+    color: black;
+    font: 400 15px/30px 'Montserrat Alternates',Andale Mono;
+    width: 180px;
+    position: relative;
+    left: 22.1%;
+}
+
+.str5{
+    display: inline-table;
+    color: white;
+    font: 400 17px/25px 'Montserrat Alternates',Andale Mono;
+    position: relative;
+    left: 13%;
+    top: 41px;
+}
+.astr5{
+    color: white;
+    font-style: oblique;
+    letter-spacing: 1px;
+}
+h2{
+    margin-top: 70px;
+}
+
+
+/* payment button*/
+
+.payment-btn {
+    width: 30%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 800;
+    transition: all 400ms ease;
+    position: relative;
+    left: 35%;
+    top: 71px;
+
+}
+.payment-btn:hover {
+    background-color: #474747;
+    border-color: #474747;
+}
+.payment-btn:active {
+    background-color: white;
+    border-color: white;
+}
+
+/* payment button*/
+
+/* text payment block */
+.step-desc {
+    padding: 22px;
+}
+
+.step-desc_success {
+    background: #474747;
+    color: SeaGreen;
+}
+
+.step-desc__heading {
+    display: flex;
+    align-items: flex-start;
+    font-family: Andale Mono;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.step-desc__heading img {
+    margin-right: 9px;
+}
+
+.step-desc__ol {
+    list-style-type: decimal;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 160%;
+}
+/* text payment block */
+
+
+
+
+
