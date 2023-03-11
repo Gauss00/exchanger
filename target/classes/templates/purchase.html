@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Gold-changer.com</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+	<a href="/" >
+		<div class="logo-text"><p>Gold</p>changer</div>
+		<img src="http://127.0.0.1:8887/src/main/resources/templates/image/logo.png" class="logo-img" width="120px">
+	</a>
+	<div>
+		<p href="#" class="html_oper1">статус оператора:</p>
+		<img src="http://127.0.0.1:8887/src/main/resources/templates/image/online.png" width="40" class="html_oper2" >
+	</div>
+</header>
+
+<img src="http://127.0.0.1:8887/src/main/resources/templates/image/backdrop-874452.jpg" class="background" width="100%" height="100%">
+
+
+
+
+
+<div class="payment-structure">
+
+	<div>
+		<div class="backg2"></div>
+		<h1 class="canter">Ваша заявка на покупку криптовалюты: </h1>
+	</div>
+
+	<div>
+		<form action="/purchase/credit-cart">
+<!--		<h2 class="str1" th:text="${money} + '  →  ' + ${crypto}"></h2>-->
+		<h2 class="str2">Введите данные кошелька для зачисления криптовалюты:</h2>
+
+		<h2 class="str2">Введите сеть:</h2>
+		<input class="str3" fdprocessedid="8qn9ma">
+		<input class="str4" fdprocessedid="8qn9ma">
+
+		<h3 class="str5">Ознакомтесь с <a href="#info" class="astr5">иноформацией по обмену</a></h3>
+
+			<button class="payment-btn">Оплата</button>
+		</form>
+	</div>
+</div>
+
+
+
+
+<div class="step-desc step-desc_success" id="info">
+	<h2 class="step-desc__heading">
+		<img src="http://127.0.0.1:8887/src/main/resources/templates/image/%D0%B7%D0%BD%D0%B0%D0%BA%20%D0%B2%D0%BE%D1%81%D0%BA%D0%BB%D0%B8%D1%86%D0%B0%D0%BD%D0%B8%D1%8F.svg" class="img-info-circle-success-icon"> Информация по обмену </h2>
+	<ol class="step-desc__ol">
+		<li class="step-desc__li"><b>Курс фиксируется на пять минут </b>при создании заявки, после этого времени курс больше не фиксируется до момента получения подтверждения вашей транзакции.</li>
+		<li class="step-desc__li">Если мы получим подтверждение перевода денежных средств в течение пяти минут после создания заявки, <b>обмен будет произведен по курсу на момент создания заявки</b>, если позже – обмен будет перечислен и исполнен по актуальному курсу биржи, отклонение может составлять до 5% от курса биржи. Заявка активна 24 часа с момента создания.</li>
+		<li class="step-desc__li"><b>Возможно списание дополнительной комиссии банком-эмитентом карты.</b>
+		</li>
+		<li class="step-desc__li">Средства обмена с корректными реквизитами будут выплачены в срок до 1 рабочего дня.</li>
+		<li class="step-desc__li">Возврат средств или изменение реквизитов возможно только в случае невозможности выплаты средств по реквизитам, указанным в заявке. Возврат средств или изменение реквизитов производится по запросу в телеграме (<a href="https://t.me/goldchanger_online" target="_blank" style="color: black;">Телеграм</a>) службы поддержки.</li>
+		<li class="step-desc__li">Если вам не подходят правила, требования или курс нашей платформы, просим воздержаться от обмена.</li>
+		<li class="step-desc__li">Платформа не отвечает за задержку конвертации, возникшую по вине финансовых учреждений, ЭПC или сети блокчейн.</li>
+	</ol>
+</div>
+
+
+<footer class="footer" id="сontacts">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col">
+				<div class="forlogo">
+					<div class="logo-text2"><p>Gold</p>changer</div>
+					<img src="http://127.0.0.1:8887/src/main/resources/templates/image/logo.png" class="logo-img2" width="120px">
+				</div>
+			</div>
+			<div class="footer-col">
+				<h4>Помощь</h4>
+				<ul>
+					<li><a href="https://t.me/goldchanger_online" target="_blank">Телеграм</a></li>
+					<li><a href="https://www.instagram.com/?hl=ru" target="_blank">Инстаграм</a></li>
+					<li><a href="https://mail.google.com/mail/gold.change@gmail.com" target="_blank">Почта</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>online shop</h4>
+				<ul>
+					<li><a href="#exchange">Обмен</a></li>
+					<li><a href="#instruction">Инструкция</a></li>
+					<li><a href="#main" >О нас</a></li>
+					<li><a href="https://www.google.com/maps/place/%D0%A5%D0%BE%D1%80%D0%BE%D1%88%D1%91%D0%B2%D1%81%D0%BA%D0%BE%D0%B5+%D1%88.,+78+%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5+2,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%96%D1%8F,+123007/@55.7791506,37.522096,17z/data=!3m1!4b1!4m5!3m4!1s0x46b5499f9cf01365:0xd8f551c3d8ed3468!8m2!3d55.7791506!4d37.522096" target="_blank">Офис</a></li>
+
+				</ul>
+			</div>
+			<div>
+				<p class="town">Москва, Хорошёвское ш., 78 строение 2</p>
+			</div>
+
+
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>
