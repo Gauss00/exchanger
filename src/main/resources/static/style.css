@@ -71,7 +71,7 @@ nav a:hover {
     top: 7px; left: 130px;
 }
 .background{
-    background-repeat: no-repeat;
+    display: flex;
     margin: 0em 0em -1em 0em;
 
 }
