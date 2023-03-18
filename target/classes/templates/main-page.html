@@ -32,41 +32,38 @@
 
 
 
-<img src="/images/backdrop-874452.jpg" id="main" class="background" width="100%" height="100%">
-<div class="topBlock">
-	<div class="backBlock">
-		<p class="uptext">мгновенная конверсия</p>
+<img src="/images/backdrop-874452.jpg" id="main" class="background" >
+	<div class="without_">
+		<div class="topBlock">
+			<div class="backBlock">
+				<p class="uptext">мгновенная конверсия</p>
+			</div>
+
+			<h1><b>Обмен криптовалют</b></h1>
+			<div class="colorGold">
+				<h2>
+					<p>БЕЗ комисии!</p>
+					<p>БЕЗ регистрации!</p>
+				</h2>
+			</div>
+			<p class="text4" id="instruction">
+				При любой необходимости свяжитесь с нашей службой поддержки.
+				Менеджера мгновенно проконсультируют вас по соответственному вопросу
+			</p>
+
+
+		</div>
+		<img src="/images/unnamed-removebg-preview.png" class="imgForCredit" >
 	</div>
-
-	<h1><b>Обмен криптовалют</b></h1>
-	<div class="colorGold">
-		<h2>
-			<p>БЕЗ комисии!</p>
-			<p>БЕЗ регистрации!</p>
-		</h2>
-	</div>
-	<p class="text4" id="instruction">
-		При любой необходимости свяжитесь с нашей службой поддержки.
-		Менеджера мгновенно проконсультируют вас по соответственному вопросу
-	</p>
-
-
-</div>
-<img src="/images/unnamed-removebg-preview.png" class="imgForCredit" width="720px">
-
 
 
 <div class="home-advantages">
-
-	<div class="glav">
-		<h2>
+	<h2>
+		<div class="glav">
 			Инструкция по покупке
-			<img src="/images/знак.png" class="img-control" width="10%">
-		</h2>
-
-
-	</div>
-
+			<img src="/images/знак.png" class="img-control" width="15%">
+		</div>
+	</h2>
 	<div class="operation">
 		<div>1</div>
 		<h3>
@@ -101,9 +98,9 @@
 
 
 </div>
-
-<img src="/images/backdrop-874452.jpg"  id="exchange" class="background" width="100%" height="100%">
-
+<div class="back">
+	<img src="/images/backdrop-874452.jpg"  id="exchange" class="background" >
+</div>
 
 
 <div class="centralBlock" >
@@ -274,6 +271,7 @@
 			padding: 0px;
 			box-sizing: border-box;
 			font-family: 'Golos',Arial,sans-serif;
+			display: block;
 		}
 		.main-form a {text-decoration: none;}
 		.main-form button {
@@ -297,12 +295,12 @@
 			height: 450px;
 			padding: 28px 14px;
 			background-color: #383838;
-			-webkit-box-shadow: 0 4px 44px rgb(51 51 51 / 10%);
+
 			box-shadow: 0 4px 44px rgb(51 51 51 / 10%);
 			border-radius: 10px;
 			font-family: 'Montserrat', sans-serif;
 			z-index: 100;
-
+			position: relative;
 			box-sizing: border-box;
 		}
 		.main-form .text1 {
@@ -315,8 +313,7 @@
 			border-radius: 15px;
   	 	 	background: #474747;
    			font: 1000 17px/35px sans-serif;
-<!--			border:2px solid gray;-->
-<!--			transition: all 400ms ease;-->
+
 		}
 
 
@@ -398,6 +395,7 @@
 		.main-form .submit-btn:active {
 			background-color: #009c49;
 			border-color: #009c49;
+
 		}
 		.crypto-calculate-wrap {
 			width: 100%;
@@ -428,14 +426,7 @@
 			padding: 0px;
 			overflow: hidden;
 		}
-<!--		.main-form .dropdown .select::before {-->
-<!--			position: absolute;-->
-<!--			top: 15px;-->
-<!--			right: 10px;-->
-<!--			width: 14px;-->
-<!--			height: 5px;-->
-<!--			content: url("../icons/angle-down-solid.svg")-->
-<!--		}-->
+
 		.main-form .dropdown .select > i {
 			font-size: 11px;
 			color: #888;
@@ -506,28 +497,7 @@
 			height: 25px;
 			margin-right: 15px;
 		}
-		@media screen and (max-width: 1200px) {
-			.main-form {
-				width: 453px;
-				height: 401px;
-				padding: 10px 14px;
-			}
-		}
-		@media screen and (max-width: 639px){
-			#rec463220781 .t396__artboard {
-				height: 1320px!important;
-			}
-		}
-		@media screen and (max-width: 479px) {
-			.main-form {
-				width: 298px;
-				height: 395px;
-				padding: 10px 14px;
-			}
-			#rec463220781 .t396__artboard {
-				height: 1150px!important;
-			}
-		}
+
 		.arrow{
 			color: #474747;
 			position: absolute;
@@ -539,6 +509,7 @@
 		.arrow-color{
 			color: #474747;
 		}
+
 
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -666,13 +637,13 @@
 			<div>
 				<p class="town">Москва, Хорошёвское ш., 78 строение 2</p>
 			</div>
-			<p class="rights">Crypto-Polis © 2023. All rights reserved</p>
+
 
 		</div>
 
 
 	</div>
-
+	<p class="rights">Crypto-Polis © 2023. All rights reserved</p>
 </footer>
 
 </body>

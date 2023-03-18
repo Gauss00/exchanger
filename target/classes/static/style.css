@@ -2,9 +2,14 @@
 
 body {
   margin: 0;
-  font-family: fantasy;
+  width: 1663px;
+  height:2550px;
 }
-
+.changbody{
+  margin: 0;
+  width: 1663px;
+  height:1550px;
+}
 header {
   display: flex;
   flex-direction: row;
@@ -13,6 +18,7 @@ header {
   padding: 0px 150px;
   background-color: #383838;
   position: fixed;
+    font-family: fantasy;
  /* top: 0;
   left: 0;*/
   width: 100%;
@@ -71,9 +77,10 @@ nav a:hover {
     top: 7px; left: 130px;
 }
 .background{
-    background-repeat: no-repeat;
-    margin: 0em 0em -1em 0em;
-
+    margin: 0em 0em -1% 0em;
+    display: flex;
+    width: 1663px;
+    z-index: 0;
 }
 
 
@@ -87,6 +94,14 @@ footer{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
+	position: relative;
+	top: -571px;
+}
+
+.changfoot{
+    position: relative;
+    top: 87px;
+    display: auto;
 }
 
 .container{
@@ -107,7 +122,13 @@ ul{
 	background-color: #383838;
     padding: 70px 0px;
 }
+.footer2{
+	background-color: #383838;
+    padding: 70px 0px;
+    position: relative;
+    top: -486px;
 
+}
 .footer-col{
    width: 25%;
    padding: 0px 90px;
@@ -145,7 +166,7 @@ ul{
 	text-decoration: none;
 	font-weight: 300;
 	color: #bbbbbb;
-	display: block;
+	display: flex;
 	transition: all 0.3s ease;
 }
 
@@ -188,9 +209,9 @@ ul{
     color: #ffffff;
     margin: auto;
     font-size: 12px;
-    position: absolute;
-    right: 87%;
-    bottom: -1895px;
+    position: relative;
+    left: 0%;
+    bottom: -70px;
 
 }
 
@@ -198,28 +219,36 @@ ul{
 /* полоса между фоном */
 
 .home-advantages {
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 90px;
+    padding-bottom: 41px;
     background-color: #474747;
+    width: 1663px;
+    display: flex;
+    position: absolute;
+    top: 935px;
 }
 
 .glav{
-  position: relative;
-  top: -20px; left: 670px;
-  margin: 0 0 0 0;
-  width: 430px;
-  color: white;
-  line-height: 1;
-  font-family: Gill Sans, sans-serif;
+
+   font-size: 29px;
+   height: 30px;
+   width: 390px;
+   color: white;
+   line-height: 1;
+   font-family: Gill Sans, sans-serif;
+   position: relative;
+   top: -80px; left: 600px;
+   margin: 0px 0px 0px 0px;
 }
 
 .operation {
   display: inline-table;
   margin: 0 75px 0 75px;
-  width: 400px;
   height: 220px;
   background: #383838;
   border-radius: 30px;
+  position: relative;
+  left: -385px;
 }
 
 .operation h3{
@@ -241,7 +270,7 @@ ul{
 
 .img-control{
     position: absolute;
-    top: -10px; left: 280px;
+    top: -12px; left: 340px;
 }
 
 .numbImg{
@@ -275,11 +304,16 @@ ul{
 /* полоса между фоном */
 /* полоса между фоном */
 
+.back{
+    position: relative;
+    top: -137px;
+}
 .centralBlock {
     color: white;
-    position: absolute;
-    top: 187%;
-    left: 50%;
+    position: relative;
+    width: 400px;
+    top: -21%;
+    left: 32%;
     transform: translate(-50%, -50%);
 }
 .topBlock {
@@ -310,11 +344,15 @@ ul{
     line-height: 0.8;
 
 }
-
+.without_{
+    display:inline;
+}
 .imgForCredit{
-    position: absolute;
-    top: 115px;
-    right: 100px;
+    z-index: 1;
+    position: relative;
+    top: -730px;
+    left: 1000px;
+
 }
 .backBlock{
     padding: 0 30px 0 30px;
@@ -334,6 +372,8 @@ ul{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #474747;
+    position: relative;
+    top: -571px;
 }
 
 .partner{
@@ -380,8 +420,8 @@ ul{
   height: 460px;
   background: #383838;
   border-radius: 15px;
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: -450px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -411,7 +451,7 @@ ul{
     width: 700px;
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 40px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -433,7 +473,7 @@ ul{
     width: 500px;
     text-align: center;
     position: relative;
-
+    top: 80px;
     left: 5%;
 
 }
@@ -445,6 +485,7 @@ ul{
     width: 500px;
     position: relative;
     left: 5.3%;
+    top: 70px;
 }
 
 .str4{
@@ -454,6 +495,7 @@ ul{
     width: 180px;
     position: relative;
     left: 22.1%;
+    top: 70px;
 }
 
 .str5{
@@ -462,14 +504,16 @@ ul{
     font: 400 17px/25px 'Montserrat Alternates',Andale Mono;
     position: relative;
     left: 13%;
-    top: 41px;
+    top: 130px;
 }
 .astr5{
     color: white;
     font-style: oblique;
     letter-spacing: 1px;
+
+
 }
-h2{
+.colorGold h2{
     margin-top: 70px;
 }
 
@@ -489,8 +533,7 @@ h2{
     transition: all 400ms ease;
     position: relative;
     left: 35%;
-    top: 71px;
-
+    top: 151px;
 }
 .payment-btn:hover {
     background-color: #474747;
@@ -506,14 +549,18 @@ h2{
 /* text payment block */
 .step-desc {
     padding: 22px;
+    position: relative;
+    top: -484px;
 }
 
 .step-desc_success {
     background: #474747;
     color: SeaGreen;
+
 }
 
 .step-desc__heading {
+
     display: flex;
     align-items: flex-start;
     font-family: Andale Mono;
@@ -524,13 +571,16 @@ h2{
 
 .step-desc__heading img {
     margin-right: 9px;
+
 }
 
 .step-desc__ol {
+
     list-style-type: decimal;
     font-family: sans-serif;
     font-size: 15px;
     line-height: 160%;
+
 }
 /* text payment block */
 

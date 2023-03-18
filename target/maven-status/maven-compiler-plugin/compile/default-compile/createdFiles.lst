@@ -1,4 +1,3 @@
-com\example\htmlproduct\controller\ImageController.class
 com\example\htmlproduct\BlogApplication.class
 com\example\htmlproduct\repo\PostRepository.class
 com\example\htmlproduct\models\CartData.class
