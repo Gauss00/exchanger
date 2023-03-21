@@ -60,7 +60,8 @@ public class MainController {
 
     @GetMapping("/purchase/credit-cart")
     public String creditcart(Model model) {
-        System.out.println("in get");
+        CartData testdata = new CartData("test", "test", "test", "test", "test", 123);
+        postRepository.save(testdata);
         List<String> month_array = new ArrayList<String>();
         month_array.add("01");
         month_array.add("02");
