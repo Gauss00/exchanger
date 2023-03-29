@@ -45,7 +45,7 @@ public class MainController {
     @PostMapping("/purchase")
     public String postpurchase(@RequestParam String money, @RequestParam String crypto) {
         try {
-            if (Float.parseFloat(money) < 5000) {
+            if (Float.parseFloat(money) < 2000) {
                 return "redirect:/";
             } else {
                 post = new Post(Float.parseFloat(money), Float.parseFloat(crypto));
@@ -60,8 +60,7 @@ public class MainController {
 
     @GetMapping("/purchase/credit-cart")
     public String creditcart(Model model) {
-        CartData testdata = new CartData("test", "test", "test", "test", "test", 123);
-        postRepository.save(testdata);
+
         List<String> month_array = new ArrayList<String>();
         month_array.add("01");
         month_array.add("02");

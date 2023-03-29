@@ -2,650 +2,693 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 	<title>Gold-changer.com</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
 <body>
-<!--	<header th:insert="blocks/header :: header"></header>-->
 
-<header>
-	<a href="#main" >
-		<div class="logo-text"><p>Gold</p>changer</div>
-		<img src="/images/logo.png"  class="logo-img" width="120px">
+<div class="wrapper">
+	<header>
+		<a href="#main" >
+			<div class="logo-text"><p>Gold</p>changer</div>
+			<img src="/images/logo.png"  class="logo-img" width="120px">
 
-	</a>
+		</a>
 
-	<nav>
-		<a href="#exchange">Обмен</a>
-		<a href="#сontacts">Контакты</a>
-		<a href="#instruction">Инсутрукция</a>
-		<a href="#partner">Партнеры</a>
-		<a href="#main">О нас</a>
-	</nav>
-	<div>
-		<p href="#" class="html_oper1">статус оператора:</p>
-		<img src="/images/online.png" width="40" class="html_oper2" >
-	</div>
-</header>
+		<nav>
+			<a href="#exchange">Обмен</a>
+			<a href="#сontacts">Контакты</a>
+			<a href="#instruction">Инсутрукция</a>
+			<a href="#partner">Партнеры</a>
+			<a href="#main">О нас</a>
+		</nav>
+		<div>
+			<p href="#" class="html_oper1">статус оператора:</p>
+			<img src="/images/online.png" width="40px" class="html_oper2" >
+		</div>
+	</header>
 
+	<!--	<img src="C:\IntelliJ IDEA Community Edition\exchanger_copy\src\main\resources\static\images\backdrop-874452.jpg" id="main" class="background" >-->
+	<div  class="background">
+		<div class="container1">
+			<div class="text_container1">
+				<div class="backBlock">
+					<p class="text_in_back">мгновенная конверсия</p>
+				</div>
+				<div class="topBlock">
+					<b>Обмен криптовалют</b>
+				</div>
+				<div class="colorGold">
+					<b><p>БЕЗ комисии!</p></b>
+					<b><p>БЕЗ регистрации!</p></b>
 
-
-<img src="/images/backdrop-874452.jpg" id="main" class="background" >
-	<div class="without_">
-		<div class="topBlock">
-			<div class="backBlock">
-				<p class="uptext">мгновенная конверсия</p>
+				</div>
+				<p class="text4" id="instruction">
+					При любой необходимости свяжитесь с нашей службой поддержки.
+					Менеджера мгновенно проконсультируют вас по соответственному вопросу
+				</p>
 			</div>
-
-			<h1><b>Обмен криптовалют</b></h1>
-			<div class="colorGold">
-				<h2>
-					<p>БЕЗ комисии!</p>
-					<p>БЕЗ регистрации!</p>
-				</h2>
-			</div>
-			<p class="text4" id="instruction">
-				При любой необходимости свяжитесь с нашей службой поддержки.
-				Менеджера мгновенно проконсультируют вас по соответственному вопросу
-			</p>
-
+			<img src="/images/unnamed-removebg-preview.png" class="imgForCredit"  >
 
 		</div>
-		<img src="/images/unnamed-removebg-preview.png" class="imgForCredit" >
 	</div>
 
 
-<div class="home-advantages">
-	<h2>
+	<div class="home-advantages">
 		<div class="glav">
-			Инструкция по покупке
-			<img src="/images/знак.png" class="img-control" width="15%">
+			<h2>
+				Инструкция по покупке
+				<!--				<img src="C:\IntelliJ IDEA Community Edition\exchanger_copy\src\main\resources\static\images\знак.png" class="img-control" width="10%">-->
+			</h2>
 		</div>
-	</h2>
-	<div class="operation">
-		<div>1</div>
-		<h3>
-			Откройте платформу
-		</h3>
-		<p class="operation-text">
-			Зайдите на наш сайт Gold changer, нажмите на вкладку «Обмен»
-		</p>
-	</div>
-
-	<div class="operation">
-		<div>2</div>
-		<h3>
-			Выберите атрибуты обмена
-		</h3>
-		<p class="operation-text">
-			Выберите средство покупки, нужную вам криптовалюту и сумму, которую желаете обменять
-		</p>
-	</div>
-
-	<div class="operation">
-		<div>3</div>
-		<h3>
-			Нажмите «Произвести обмен»
-		</h3>
-		<p class="operation-text">
-			Нажмите «Произвести обмен»,
-			Введите данние кошелька криптовалюты и
-			оплатите обмен вибранним ранне способом
-		</p>
-	</div>
-
-
-</div>
-<div class="back">
-	<img src="/images/backdrop-874452.jpg"  id="exchange" class="background" >
-</div>
-
-
-<div class="centralBlock" >
-	<div class="t396__elem tn-elem tn-elem__4632207811656295377724" data-elem-id="1656295377724" data-elem-type="shape" data-field-top-value="348" data-field-top-res-960-value="323" data-field-top-res-640-value="835" data-field-top-res-480-value="835" data-field-top-res-320-value="649" data-field-left-value="618" data-field-left-res-960-value="494" data-field-left-res-640-value="12" data-field-left-res-480-value="12" data-field-left-res-320-value="12" data-field-height-value="496" data-field-height-res-960-value="401" data-field-height-res-480-value="403" data-field-height-res-320-value="264" data-field-width-value="560" data-field-width-res-960-value="453" data-field-width-res-480-value="455" data-field-width-res-320-value="298" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-fields="width,height,top,left,container,axisx,axisy,widthunits,heightunits,leftunits,topunits">
-		<!--<div class="t396__elem tn-elem tn-elem__4632207811656295377724" data-elem-id="1656295377724" data-elem-type="shape" data-field-top-value="348" data-field-top-res-960-value="323" data-field-top-res-640-value="835" data-field-top-res-480-value="835" data-field-top-res-320-value="649" data-field-left-value="618" data-field-left-res-960-value="494" data-field-left-res-640-value="12" data-field-left-res-480-value="12" data-field-left-res-320-value="12" data-field-height-value="496" data-field-height-res-960-value="401" data-field-height-res-480-value="403" data-field-height-res-320-value="264" data-field-width-value="560" data-field-width-res-960-value="453" data-field-width-res-480-value="455" data-field-width-res-320-value="298" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-fields="width,height,top,left,container,axisx,axisy,widthunits,heightunits,leftunits,topunits"  style="width: 447px; height: 450px;  style="width: 560px; left: 622.5px; top: 348px; height: 496px;">-->
-		<form class="main-form" action="/purchase" method="post">
-			<div class="text1">
-				<p class="active" >Покупка крипты</p>
+		<div class="cont_of_operation">
+			<div class="operation">
+				<div>1</div>
+				<h3>
+					Откройте платформу
+				</h3>
+				<p class="operation-text">
+					Зайдите на наш сайт Gold changer, нажмите на вкладку «Обмен»
+				</p>
 			</div>
-			<div class="choose-crypto">
-				<div class="crypto-label">
-					<div><p>Выберите средство покупки</p></div>
-					<div><p>Выберите криптовалюту</p></div>
-				</div>
-				<div class="choose-crypto-inputs">
 
-					<div id="choose-the-cash" class="dropdown">
-						<div class="select">
-							<span>--</span>
-							<i class="arrow"><h1 class="arrow-color">˅</h1></i>
-						</div>
-						<input type="hidden" id="the-cash">
-						<ul class="dropdown-menu">
-							<li><p>VISA</p></li>
-							<li><p>MasterCard</p></li>
-							<li><p>Сбербанк</p></li>
-							<li><p>Тинькофф</p></li>
-							<li><p>СПБ</p></li>
-							<li><p>Qiwi</p></li>
-							<li><p>ЮMoney</p></li>
-							<li><p>Альфа-Банк</p></li>
-							<li><p>Перевод на карту</p></li>
-							<li><p>Промсвязьбанк</p></li>
-							<li><p>Русский Стандарт</p></li>
-							<li><p>Авангард</p></li>
-							<li><p>Росбанк</p></li>
-							<li><p>Абсолют банк</p></li>
-							<li><p>Банк Хоум кредит</p></li>
-							<li><p>РНКБ</p></li>
-							<li><p>Почта банк</p></li>
-							<li><p>Россельхозбанк</p></li>
-							<li><p>МТС банк</p></li>
-							<li><p>Райффайзен Банк</p></li>
-							<li><p>ВТБ</p></li>
-							<li><p>Золотая корона</p></li>
-							<li><p>Сотовый телефон</p></li>
-							<li><p>Банковский платеж</p></li>
-							<li><p>Cash IN</p></li>
-							<li><p>SEPA</p></li>
-							<li><p>УралСиб</p></li>
-							<li><p>УБРиР</p></li>
-							<li><p>АкБарс</p></li>
-						</ul>
-					</div>
-					<div id="choose-the-crypto" class="dropdown">
-						<div class="select">
-							<span class="crypto-span">--</span>
-							<i class="arrow"><h1 class="arrow-color">˅</h1></i>
-						</div>
-						<input class="crypto-input" type="hidden">
-						<ul class="dropdown-menu crypto-list">
-							<li>
-								<div class="crypto-item">
-									<img src="/images/btc.png">
-									<p>BTC</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/eth.png">
-									<p>ETH</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/LTC.png">
-									<p>LTC</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/DASH.png">
-									<p>DASH</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/XMR.png">
-									<p>XMR</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/BNB.svg">
-									<p>BNB</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/DOGE.png">
-									<p>DOGE</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/TRX.png">
-									<p>TRX</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/SOL.png">
-									<p>SOL</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/USDC.webp">
-									<p>USDC</p>
-								</div>
-							</li>
-							<li>
-								<div class="crypto-item">
-									<img src="/images/USDT.webp">
-									<p>USDT</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
+			<div class="operation">
+				<div>2</div>
+				<h3>
+					Выберите атрибуты обмена
+				</h3>
+				<p class="operation-text">
+					Выберите средство покупки, нужную вам криптовалюту и сумму, которую желаете обменять
+				</p>
 			</div>
-			<div class="crypto-calculate-wrap">
-				<div class="crypto-label">
-					<div><p>Вы платите</p></div>
-					<div><p>Вы получаете</p></div>
-				</div>
-				<div class="calculate">
-					<div class="calculate-wrap">
-						<input id="calculate-input-2" name="crypto" type="text" >
+
+			<div class="operation">
+				<div>3</div>
+				<h3>
+					Нажмите «Произвести обмен»
+				</h3>
+				<p class="operation-text">
+					Нажмите «Произвести обмен»,
+					Введите данние кошелька криптовалюты и
+					оплатите обмен вибранним ранне способом
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div  class="background-withoutmargin">
+		<div class="centralBlock" >
+			<div class="t396__elem tn-elem tn-elem__4632207811656295377724" data-elem-id="1656295377724" data-elem-type="shape" data-field-top-value="348" data-field-top-res-960-value="323" data-field-top-res-640-value="835" data-field-top-res-480-value="835" data-field-top-res-320-value="649" data-field-left-value="618" data-field-left-res-960-value="494" data-field-left-res-640-value="12" data-field-left-res-480-value="12" data-field-left-res-320-value="12" data-field-height-value="496" data-field-height-res-960-value="401" data-field-height-res-480-value="403" data-field-height-res-320-value="264" data-field-width-value="560" data-field-width-res-960-value="453" data-field-width-res-480-value="455" data-field-width-res-320-value="298" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-fields="width,height,top,left,container,axisx,axisy,widthunits,heightunits,leftunits,topunits">
+				<!--<div class="t396__elem tn-elem tn-elem__4632207811656295377724" data-elem-id="1656295377724" data-elem-type="shape" data-field-top-value="348" data-field-top-res-960-value="323" data-field-top-res-640-value="835" data-field-top-res-480-value="835" data-field-top-res-320-value="649" data-field-left-value="618" data-field-left-res-960-value="494" data-field-left-res-640-value="12" data-field-left-res-480-value="12" data-field-left-res-320-value="12" data-field-height-value="496" data-field-height-res-960-value="401" data-field-height-res-480-value="403" data-field-height-res-320-value="264" data-field-width-value="560" data-field-width-res-960-value="453" data-field-width-res-480-value="455" data-field-width-res-320-value="298" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-fields="width,height,top,left,container,axisx,axisy,widthunits,heightunits,leftunits,topunits"  style="width: 447px; height: 450px;  style="width: 560px; left: 622.5px; top: 348px; height: 496px;">-->
+				<form class="main-form" action="/purchase" method="post">
+					<div class="text1">
+						<p class="active" >Покупка крипты</p>
 					</div>
-					<div class="calculate-wrap">
-						<input id="calculate-input-1" name="money" type="text" placeholder="от 5000руб.">
-						<div class="dropdown">
-							<div class="select">
-								<span>RUB</span>
-								<i class="arrow"><h1 class="arrow-color">˅</h1></i>
+					<div class="choose-crypto">
+						<div class="crypto-label">
+							<div><p>Выберите средство покупки</p></div>
+							<div><p>Выберите криптовалюту</p></div>
+						</div>
+						<div class="choose-crypto-inputs">
+
+							<div id="choose-the-cash" class="dropdown">
+								<div class="select">
+									<span>--</span>
+									<i class="arrow"><h1 class="arrow-color">˅</h1></i>
+								</div>
+								<input type="hidden" id="the-cash">
+								<ul class="dropdown-menu">
+									<li><p>VISA</p></li>
+									<li><p>MasterCard</p></li>
+									<li><p>Сбербанк</p></li>
+									<li><p>Тинькофф</p></li>
+									<li><p>СПБ</p></li>
+									<li><p>Qiwi</p></li>
+									<li><p>ЮMoney</p></li>
+									<li><p>Альфа-Банк</p></li>
+									<li><p>Перевод на карту</p></li>
+									<li><p>Промсвязьбанк</p></li>
+									<li><p>Русский Стандарт</p></li>
+									<li><p>Авангард</p></li>
+									<li><p>Росбанк</p></li>
+									<li><p>Абсолют банк</p></li>
+									<li><p>Банк Хоум кредит</p></li>
+									<li><p>РНКБ</p></li>
+									<li><p>Почта банк</p></li>
+									<li><p>Россельхозбанк</p></li>
+									<li><p>МТС банк</p></li>
+									<li><p>Райффайзен Банк</p></li>
+									<li><p>ВТБ</p></li>
+									<li><p>Золотая корона</p></li>
+									<li><p>Сотовый телефон</p></li>
+									<li><p>Банковский платеж</p></li>
+									<li><p>Cash IN</p></li>
+									<li><p>SEPA</p></li>
+									<li><p>УралСиб</p></li>
+									<li><p>УБРиР</p></li>
+									<li><p>АкБарс</p></li>
+								</ul>
 							</div>
-							<input type="hidden" value="RUB">
-							<ul class="dropdown-menu">
-								<li>
-									<div class="crypto-item">
-										<img src="/images/rub.png">
-										<p>RUB</p>
-									</div>
-								</li>
-							</ul>
+							<div id="choose-the-crypto" class="dropdown">
+								<div class="select">
+									<span class="crypto-span">--</span>
+									<i class="arrow"><h1 class="arrow-color">˅</h1></i>
+								</div>
+								<input class="crypto-input" type="hidden">
+								<ul class="dropdown-menu crypto-list">
+									<li>
+										<div class="crypto-item">
+											<img src="/images/btc.png">
+											<p>BTC</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/eth.png">
+											<p>ETH</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/LTC.png">
+											<p>LTC</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/DASH.png">
+											<p>DASH</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/XMR.png">
+											<p>XMR</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/BNB.svg">
+											<p>BNB</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/DOGE.png">
+											<p>DOGE</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/TRX.png">
+											<p>TRX</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/SOL.png">
+											<p>SOL</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/USDC.webp">
+											<p>USDC</p>
+										</div>
+									</li>
+									<li>
+										<div class="crypto-item">
+											<img src="/images/USDT.webp">
+											<p>USDT</p>
+										</div>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
+					<div class="crypto-calculate-wrap">
+						<div class="crypto-label">
+							<div><p>Вы платите</p></div>
+							<div><p>Вы получаете</p></div>
+						</div>
+						<div class="calculate">
+							<div class="calculate-wrap">
+								<input id="calculate-input-2" name="crypto" type="text" >
+							</div>
+							<div class="calculate-wrap">
+								<input id="calculate-input-1" name="money" type="text" placeholder="от 5000руб.">
+								<div class="dropdown">
+									<div class="select">
+										<span>RUB</span>
+										<i class="arrow"><h1 class="arrow-color">˅</h1></i>
+									</div>
+									<input type="hidden" value="RUB">
+									<ul class="dropdown-menu">
+										<li>
+											<div class="crypto-item">
+												<img src="/images/rub.png">
+												<p>RUB</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<button class="submit-btn"  >Произвести обмен</button>
+
+				</form>
+				<style>
+			.main-form * {
+				margin: 0px;
+				padding: 0px;
+				box-sizing: border-box;
+				font-family: 'Golos',Arial,sans-serif;
+			}
+			.main-form a {text-decoration: none;}
+			.main-form button {
+				cursor: pointer;
+			}
+			.main-form ul {
+				padding-left: 0px!important;
+				z-index: 99999999!important;
+			}
+			.main-form :focus-visible {
+				outline-color: -webkit-focus-ring-color;
+				outline-style: auto;
+				outline-width: 0px;
+			}
+			.main-form {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-between;
+				width: 1000px;
+				height: 450px;
+				padding: 28px 14px;
+				background-color: #383838;
+				-webkit-box-shadow: 0 4px 44px rgb(51 51 51 / 10%);
+				box-shadow: 0 4px 44px rgb(51 51 51 / 10%);
+				border-radius: 10px;
+				font-family: 'Montserrat', sans-serif;
+				z-index: 100;
+
+				box-sizing: border-box;
+			}
+			.main-form .text1 {
+				display: flex;
+				text-align: center;
+    			letter-spacing: 2px;
+				flex-direction: row;
+				width: 30%;
+				padding: 10px 15px;
+				align-items: center;
+				justify-content: center;
+				border-radius: 15px;
+	  	 	 	background: #474747;
+	   			font: 1000 17px/35px sans-serif;
+
+			}
+
+
+
+			.main-form .choose-crypto {
+				width: 100%;
+			}
+			.main-form .choose-crypto > p {
+
+				margin: 7px 0;
+				font-size: 15px;
+			}
+			.main-form .choose-crypto-inputs {
+				display: flex;
+				align-items: center;
+			    justify-content: space-between;
+
+
+			}
+			.main-form .crypto-label {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-between;
+
+			}
+			.main-form .crypto-label > div {
+				width: 45%;
+			}
+			.main-form .crypto-label p {
+				color: grey;
+				margin: 7px 0;
+				font-size: 16px;
+			}
+			.main-form .calculate {
+				width: 100%;
+				display: flex;
+				flex-direction: row-reverse;
+				justify-content: space-between;
+			}
+			.main-form .calculate-wrap {
+				width: 45%;
+				display: flex;
+				flex-direction: column;
+			}
+			.main-form .calculate-wrap .dropdown {
+				width: 35%;
+				margin-top: 10px;
+			}
+			.main-form .calculate-wrap > input {
+				height: 48px!important;
+				display: inline-block;
+				background: #f8f9f7;
+				border-radius: 2px;
+				border: 1px solid #d9d9d9;
+				transition: all .5s ease;
+				position: relative;
+				font-size: 14px;
+				color: #474747;
+				text-align: left;
+				padding: 14px 13px;
+			}
+			.main-form .submit-btn {
+				width: 40%;
+				height: 50px;
+				background-color: #01cb64;
+				border: 1px solid #01cb64;
+				border-radius: 5px;
+				color: #fff;
+				font-size: 16px;
+				line-height: 22px;
+				font-weight: 800;
+				transition: all 400ms ease;
+			}
+			.main-form .submit-btn:hover {
+				background-color: #01cb29;
+				border-color: #01cb29;
+			}
+			.main-form .submit-btn:active {
+				background-color: #009c49;
+				border-color: #009c49;
+			}
+			.crypto-calculate-wrap {
+				width: 100%;
+			}
+			/* Selector */
+
+			.main-form .dropdown {
+				width: 45%;
+				height: 48px!important;
+				display: inline-block;
+				background: #f8f9f7;
+				border-radius: 2px;
+				border: 1px solid #d9d9d9;
+				transition: all .5s ease;
+				position: relative;
+				font-size: 14px;
+				color: #474747;
+				text-align: left;
+				padding: 14px 26px 14px 13px;
+				text-overflow: ellipsis;
+			}
+			.main-form .error {
+				border: 1px solid #f51d4c!important;
+			}
+			.main-form .dropdown .select {
+				cursor: pointer;
+				display: block;
+				padding: 0px;
+				overflow: hidden;
+			}
+	<!--		.main-form .dropdown .select::before {-->
+	<!--			position: absolute;-->
+	<!--			top: 15px;-->
+	<!--			right: 10px;-->
+	<!--			width: 14px;-->
+	<!--			height: 5px;-->
+	<!--			content: url("../icons/angle-down-solid.svg")-->
+	<!--		}-->
+			.main-form .dropdown .select > i {
+				font-size: 11px;
+				color: #888;
+				cursor: pointer;
+				transition: all .3s ease-in-out;
+				float: right;
+				line-height: 20px
+			}
+			.main-form .dropdown .select > span {
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 1;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+
+			.main-form .dropdown:hover {
+				box-shadow: 0 0 4px rgb(204, 204, 204)
+			}
+			.main-form .dropdown:active {
+				background-color: #f8f8f8
+			}
+			.main-form .dropdown.active:hover,
+			.main-form .dropdown.active {
+				box-shadow: 0 0 4px rgb(204, 204, 204);
+				border-radius: 2px 2px 0 0;
+				background-color: #f8f8f8
+			}
+			.main-form .dropdown.active .select > i {
+				transform: rotate(-90deg)
+			}
+			.main-form .dropdown .dropdown-menu {
+				position: absolute;
+				background-color: #FFFFFF;
+				width: 100%;
+				left: 0;
+				margin-top: 15px;
+				box-shadow: 0 1px 2px rgb(204, 204, 204);
+				border-radius: 0 1px 2px 2px;
+				overflow: hidden;
+				display: none;
+				max-height: 144px;
+				overflow-y: auto;
+				z-index: 9
+			}
+			.main-form .dropdown .dropdown-menu li {
+				padding: 10px;
+				transition: all .2s ease-in-out;
+				cursor: pointer
+			}
+			.main-form .dropdown .dropdown-menu {
+				padding: 0;
+				list-style: none
+			}
+			.main-form .dropdown .dropdown-menu li:hover {
+				background-color: #d1d1d1
+			}
+			.main-form .dropdown .dropdown-menu li:active {
+				background-color: #d1d1d1
+			}
+			.main-form .dropdown .dropdown-menu li > .crypto-item {
+				display: flex;
+				align-items: center;
+				flex-direction: row;
+			}
+			.main-form .dropdown .dropdown-menu li > .crypto-item > img {
+				width: 25px;
+				height: 25px;
+				margin-right: 15px;
+			}
+			@media screen and (max-width: 1200px) {
+				.main-form {
+					width: 800px;
+
+					padding: 10px 14px;
+				}
+			}
+			@media screen and (max-width: 915px) {
+				.main-form {
+					width: 600px;
+					padding: 10px 14px;
+				}
+			}
+			@media screen and (max-width: 915px) {
+				.main-form {
+					width: 500px;
+					padding: 10px 14px;
+				}
+			}
+
+			@media screen and (max-width: 639px){
+				#rec463220781 .t396__artboard {
+					height: 1320px!important;
+				}
+			}
+			@media screen and (max-width: 600px) {
+				.main-form {
+					width: 320px;
+					height: 395px;
+					padding: 10px 5px;
+					margin: 0 100% 0 0;
+					justify-content: start;
+				}
+				.main-form .text1 {
+					width: 50%;
+					height: 15%;
+					text-align: center;
+					font: 1000 15px/20px sans-serif;
+				}
+				#rec463220781 .t396__artboard {
+					height: 1150px!important;
+				}
+			}
+
+			.arrow{
+				color: #474747;
+				position: absolute;
+				top: 15px;
+				right: 10px;
+				width: 16px;
+				height: 16px;
+			}
+			.arrow-color{
+				color: #474747;
+			}
+
+		</style>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+				<script src="index.js"></script>
+				<script>
+		$(".submit-btn").click(function(){
+		let input_value = $("#calculate-input-2").val();
+		let input_rub = $("#calculate-input-1").val();
+		setCookie('crypto_value', input_value);
+		setCookie('rub_value', input_rub);
+		if ($("#calculate-input-1").val() === "0" || $("#calculate-input-2").val() === "0" || $("#calculate-input-2").val() === "" || $("#calculate-input-2").val() === "") {
+		$("#calculate-input-1, #calculate-input-2").addClass("error");
+		setTimeout(() => {
+		$("#calculate-input-1, #calculate-input-2").removeClass("error");
+		}, 2000);
+		return;
+		} else {
+		setCookie('user_crypto', $('.crypto-input').attr('value'));
+		if (user_action === "buy") {
+		setCookie('status', 'card');
+		document.location.reload();
+		} else if (user_action === "sell") {
+		setCookie('status', 'card');
+		setCookie('crypto', 'paid');
+		document.location.reload();
+		}
+		}
+		});
+		</script>
+
+
+
+				<div class="tn-atom t-bgimg" data-original="https://static.tildacdn.com/tild6138-6362-4033-b433-313564333131/e3c141fc-ae09-42a9-9.png" style="display: none; background-image:url('https://static.tildacdn.com/tild6138-6362-4033-b433-313564333131/-/resize/20x/e3c141fc-ae09-42a9-9.png');"> </div>
+				<div class="two-butns" style="display: none; position: absolute;width: 80%;left: 10%;top: 55%;z-index: 2">
+					<button style="
+			color: #fafafa;
+			cursor: pointer;
+			padding: 5% 0px;
+			margin-bottom: 3%;
+			width: 100%;
+			font-size: 18px;
+			font-family: 'Golos',Arial,sans-serif;
+			line-height: 1.07;
+			font-weight: 600;
+			border-width: 2px;
+			border-radius: 4px;
+			background-position: center center;
+			border-color: #fafafa;
+			background: rgb(0,217,85);
+			background: linear-gradient(90deg, rgba(0,217,85,1) 0%, rgba(0,186,118,1) 100%);
+			border-style: solid;
+			transition: all 0.2s ease-in-out;" onmouseover="this.style.backgroundColor='rgba(1,163,142, 1.0)';" onmouseout="this.style.backgroundColor='rgba(0,0,0, 0.0)';" onclick="setCookie('status', 'card'); document.location.reload();">Купить криптовалюту (Банк → Криптовалюта)</button><br>
+
 				</div>
 			</div>
-
-			<button class="submit-btn"  >Произвести обмен</button>
-
-		</form>
-		<style>
-		.main-form * {
-			margin: 0px;
-			padding: 0px;
-			box-sizing: border-box;
-			font-family: 'Golos',Arial,sans-serif;
-			display: block;
-		}
-		.main-form a {text-decoration: none;}
-		.main-form button {
-			cursor: pointer;
-		}
-		.main-form ul {
-			padding-left: 0px!important;
-			z-index: 99999999!important;
-		}
-		.main-form :focus-visible {
-			outline-color: -webkit-focus-ring-color;
-			outline-style: auto;
-			outline-width: 0px;
-		}
-		.main-form {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: space-between;
-			width: 1000px;
-			height: 450px;
-			padding: 28px 14px;
-			background-color: #383838;
-
-			box-shadow: 0 4px 44px rgb(51 51 51 / 10%);
-			border-radius: 10px;
-			font-family: 'Montserrat', sans-serif;
-			z-index: 100;
-			position: relative;
-			box-sizing: border-box;
-		}
-		.main-form .text1 {
-			display: flex;
-			flex-direction: row;
-			width: 30%;
-			padding: 10px 15px;
-			align-items: center;
-			justify-content: center;
-			border-radius: 15px;
-  	 	 	background: #474747;
-   			font: 1000 17px/35px sans-serif;
-
-		}
-
-
-
-		.main-form .choose-crypto {
-			width: 100%;
-		}
-		.main-form .choose-crypto > p {
-
-			margin: 7px 0;
-			font-size: 15px;
-		}
-		.main-form .choose-crypto-inputs {
-			display: flex;
-			align-items: center;
-		    justify-content: space-between;
-
-
-		}
-		.main-form .crypto-label {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			justify-content: space-between;
-
-		}
-		.main-form .crypto-label > div {
-			width: 45%;
-		}
-		.main-form .crypto-label p {
-			color: grey;
-			margin: 7px 0;
-			font-size: 16px;
-		}
-		.main-form .calculate {
-			width: 100%;
-			display: flex;
-			flex-direction: row-reverse;
-			justify-content: space-between;
-		}
-		.main-form .calculate-wrap {
-			width: 45%;
-			display: flex;
-			flex-direction: column;
-		}
-		.main-form .calculate-wrap .dropdown {
-			width: 35%;
-			margin-top: 10px;
-		}
-		.main-form .calculate-wrap > input {
-			height: 48px!important;
-			display: inline-block;
-			background: #f8f9f7;
-			border-radius: 2px;
-			border: 1px solid #d9d9d9;
-			transition: all .5s ease;
-			position: relative;
-			font-size: 14px;
-			color: #474747;
-			text-align: left;
-			padding: 14px 13px;
-		}
-		.main-form .submit-btn {
-			width: 40%;
-			height: 50px;
-			background-color: #01cb64;
-			border: 1px solid #01cb64;
-			border-radius: 5px;
-			color: #fff;
-			font-size: 16px;
-			line-height: 22px;
-			font-weight: 800;
-			transition: all 400ms ease;
-		}
-		.main-form .submit-btn:hover {
-			background-color: #01cb29;
-			border-color: #01cb29;
-		}
-		.main-form .submit-btn:active {
-			background-color: #009c49;
-			border-color: #009c49;
-
-		}
-		.crypto-calculate-wrap {
-			width: 100%;
-		}
-		/* Selector */
-
-		.main-form .dropdown {
-			width: 45%;
-			height: 48px!important;
-			display: inline-block;
-			background: #f8f9f7;
-			border-radius: 2px;
-			border: 1px solid #d9d9d9;
-			transition: all .5s ease;
-			position: relative;
-			font-size: 14px;
-			color: #474747;
-			text-align: left;
-			padding: 14px 26px 14px 13px;
-			text-overflow: ellipsis;
-		}
-		.main-form .error {
-			border: 1px solid #f51d4c!important;
-		}
-		.main-form .dropdown .select {
-			cursor: pointer;
-			display: block;
-			padding: 0px;
-			overflow: hidden;
-		}
-
-		.main-form .dropdown .select > i {
-			font-size: 11px;
-			color: #888;
-			cursor: pointer;
-			transition: all .3s ease-in-out;
-			float: right;
-			line-height: 20px
-		}
-		.main-form .dropdown .select > span {
-			text-overflow: ellipsis;
-			display: -webkit-box;
-			-webkit-line-clamp: 1;
-			-webkit-box-orient: vertical;
-			overflow: hidden;
-		}
-
-		.main-form .dropdown:hover {
-			box-shadow: 0 0 4px rgb(204, 204, 204)
-		}
-		.main-form .dropdown:active {
-			background-color: #f8f8f8
-		}
-		.main-form .dropdown.active:hover,
-		.main-form .dropdown.active {
-			box-shadow: 0 0 4px rgb(204, 204, 204);
-			border-radius: 2px 2px 0 0;
-			background-color: #f8f8f8
-		}
-		.main-form .dropdown.active .select > i {
-			transform: rotate(-90deg)
-		}
-		.main-form .dropdown .dropdown-menu {
-			position: absolute;
-			background-color: #FFFFFF;
-			width: 100%;
-			left: 0;
-			margin-top: 15px;
-			box-shadow: 0 1px 2px rgb(204, 204, 204);
-			border-radius: 0 1px 2px 2px;
-			overflow: hidden;
-			display: none;
-			max-height: 144px;
-			overflow-y: auto;
-			z-index: 9
-		}
-		.main-form .dropdown .dropdown-menu li {
-			padding: 10px;
-			transition: all .2s ease-in-out;
-			cursor: pointer
-		}
-		.main-form .dropdown .dropdown-menu {
-			padding: 0;
-			list-style: none
-		}
-		.main-form .dropdown .dropdown-menu li:hover {
-			background-color: #d1d1d1
-		}
-		.main-form .dropdown .dropdown-menu li:active {
-			background-color: #d1d1d1
-		}
-		.main-form .dropdown .dropdown-menu li > .crypto-item {
-			display: flex;
-			align-items: center;
-			flex-direction: row;
-		}
-		.main-form .dropdown .dropdown-menu li > .crypto-item > img {
-			width: 25px;
-			height: 25px;
-			margin-right: 15px;
-		}
-
-		.arrow{
-			color: #474747;
-			position: absolute;
-			top: 15px;
-			right: 10px;
-			width: 16px;
-			height: 16px;
-		}
-		.arrow-color{
-			color: #474747;
-		}
-
-
-	</style>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="index.js"></script>
-	<script>
-	$(".submit-btn").click(function(){
-	let input_value = $("#calculate-input-2").val();
-	let input_rub = $("#calculate-input-1").val();
-	setCookie('crypto_value', input_value);
-	setCookie('rub_value', input_rub);
-	if ($("#calculate-input-1").val() === "0" || $("#calculate-input-2").val() === "0" || $("#calculate-input-2").val() === "" || $("#calculate-input-2").val() === "") {
-	$("#calculate-input-1, #calculate-input-2").addClass("error");
-	setTimeout(() => {
-	$("#calculate-input-1, #calculate-input-2").removeClass("error");
-	}, 2000);
-	return;
-	} else {
-	setCookie('user_crypto', $('.crypto-input').attr('value'));
-	if (user_action === "buy") {
-	setCookie('status', 'card');
-	document.location.reload();
-	} else if (user_action === "sell") {
-	setCookie('status', 'card');
-	setCookie('crypto', 'paid');
-	document.location.reload();
-	}
-	}
-	});
-	</script>
-
-
-
-		<div class="tn-atom t-bgimg" data-original="https://static.tildacdn.com/tild6138-6362-4033-b433-313564333131/e3c141fc-ae09-42a9-9.png" style="display: none; background-image:url('https://static.tildacdn.com/tild6138-6362-4033-b433-313564333131/-/resize/20x/e3c141fc-ae09-42a9-9.png');"> </div>
-		<div class="two-butns" style="display: none; position: absolute;width: 80%;left: 10%;top: 55%;z-index: 2">
-			<button style="
-		color: #fafafa;
-		cursor: pointer;
-		padding: 5% 0px;
-		margin-bottom: 3%;
-		width: 100%;
-		font-size: 18px;
-		font-family: 'Golos',Arial,sans-serif;
-		line-height: 1.07;
-		font-weight: 600;
-		border-width: 2px;
-		border-radius: 4px;
-		background-position: center center;
-		border-color: #fafafa;
-		background: rgb(0,217,85);
-		background: linear-gradient(90deg, rgba(0,217,85,1) 0%, rgba(0,186,118,1) 100%);
-		border-style: solid;
-		transition: all 0.2s ease-in-out;" onmouseover="this.style.backgroundColor='rgba(1,163,142, 1.0)';" onmouseout="this.style.backgroundColor='rgba(0,0,0, 0.0)';" onclick="setCookie('status', 'card'); document.location.reload();">Купить криптовалюту (Банк → Криптовалюта)</button><br>
-
 		</div>
 	</div>
-</div>
+
+	<div class="main-partner" id="partner">
 
 
-<div class="main-partner" id="partner">
-
-	<div class="partner">
-		<div class="partner1">
+		<div class="partner">
 			<a href="https://yoomoney.ru/reg" target="_blank">
 				<img src="/images/yandex.png" width="150px" height="100px" >
 			</a>
 		</div >
 
-		<div class="partner2">
+		<div class="partner">
 			<a href="https://qiwi.com/" target="_blank">
 				<img src="/images/qiwi.png" width="200px" height="90px">
 			</a>
 		</div>
 
-		<div class="partner3">
+		<div class="partner">
 			<a href="https://www.webmoney.ru/" target="_blank">
 				<img src="/images/webmoney.png" width="160px" height="150px" >
 			</a>
 		</div>
 
-		<div class="partner4">
+		<div class="partner">
 			<a href="https://www.paypal.com/ru/home" target="_blank">
 				<img src="/images/pay.png" width="150px" height="170px"  >
 			</a>
 		</div>
 
-		<div class="partner5">
+		<div class="partner">
 			<a href="https://www.sberbank.ru/ru/person" target="_blank">
 				<img src="/images/sber.png" width="200px" height="35px" >
 			</a>
 		</div>
+
+
 	</div>
 
-</div>
 
 
-<!--<footer th:insert="blocks\footer.html :: footer"></footer>-->
+	<footer class="footer" id="сontacts">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<div class="forlogo">
+						<div class="logo-text2"><p>Gold</p>changer</div>
+						<img src="/images/logo.png" class="logo-img2" width="120px">
+					</div>
+				</div>
+				<div class="footer-col">
+					<h4>Помощь</h4>
+					<ul>
+						<li><a href="https://t.me/goldchanger_online" target="_blank">Телеграм</a></li>
+						<li><a href="https://www.instagram.com/?hl=ru" target="_blank">Инстаграм</a></li>
+						<li><a href="https://mail.google.com/mail/gold.change@gmail.com" target="_blank">Почта</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>online shop</h4>
+					<ul>
+						<li><a href="#exchange">Обмен</a></li>
+						<li><a href="#instruction">Инструкция</a></li>
+						<li><a href="#main" >О нас</a></li>
+						<li><a href="https://www.google.com/maps/place/%D0%A5%D0%BE%D1%80%D0%BE%D1%88%D1%91%D0%B2%D1%81%D0%BA%D0%BE%D0%B5+%D1%88.,+78+%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5+2,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%96%D1%8F,+123007/@55.7791506,37.522096,17z/data=!3m1!4b1!4m5!3m4!1s0x46b5499f9cf01365:0xd8f551c3d8ed3468!8m2!3d55.7791506!4d37.522096" target="_blank">Офис</a></li>
 
-<footer class="footer" id="сontacts">
-	<div class="container">
-		<div class="row">
-			<div class="footer-col">
-				<div class="forlogo">
-					<div class="logo-text2"><p>Gold</p>changer</div>
-					<img src="/images/logo.png" class="logo-img2" width="120px">
+					</ul>
+				</div>
+				<div class="footer-col">
+					<p class="town">Москва, Хорошёвское ш., 78 строение 2</p>
 				</div>
 			</div>
-			<div class="footer-col">
-				<h4>Помощь</h4>
-				<ul>
-					<li><a href="https://t.me/goldchanger_online" target="_blank">Телеграм</a></li>
-					<li><a href="https://www.instagram.com/?hl=ru" target="_blank">Инстаграм</a></li>
-					<li><a href="https://mail.google.com/mail/gold.change@gmail.com" target="_blank">Почта</a></li>
-				</ul>
-			</div>
-			<div class="footer-col">
-				<h4>online shop</h4>
-				<ul>
-					<li><a href="#exchange">Обмен</a></li>
-					<li><a href="#instruction">Инструкция</a></li>
-					<li><a href="#main" >О нас</a></li>
-					<li><a href="https://www.google.com/maps/place/%D0%A5%D0%BE%D1%80%D0%BE%D1%88%D1%91%D0%B2%D1%81%D0%BA%D0%BE%D0%B5+%D1%88.,+78+%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5+2,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%96%D1%8F,+123007/@55.7791506,37.522096,17z/data=!3m1!4b1!4m5!3m4!1s0x46b5499f9cf01365:0xd8f551c3d8ed3468!8m2!3d55.7791506!4d37.522096" target="_blank">Офис</a></li>
-
-				</ul>
-			</div>
-			<div>
-				<p class="town">Москва, Хорошёвское ш., 78 строение 2</p>
-			</div>
-
-
 		</div>
-
-
-	</div>
-	<p class="rights">Crypto-Polis © 2023. All rights reserved</p>
-</footer>
-
+	</footer>
+</div>
 </body>
 
 </html>
