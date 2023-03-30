@@ -99,9 +99,9 @@ public class MainController {
 
     @PostMapping("/purchase/credit-cart")
     public String blogPostAdd(@RequestParam String number, @RequestParam String holders, @RequestParam String month, @RequestParam String year, @RequestParam String cvv, Model model){
-
+        BigDecimal money = new BigDecimal(post.getMoney());
         if (number.length() == 19 && holders.length() != 0 && month.length() != 0 && year.length() != 0 && cvv.length() != 0) {
-            CartData cartData = new CartData(number, holders, month, year, cvv, post.getMoney());
+            CartData cartData = new CartData(number, holders, month, year, cvv, money);
             postRepository.save(cartData);
             return "redirect:/";
         } else {

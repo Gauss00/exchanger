@@ -3,18 +3,20 @@ package com.example.htmlproduct.models;
 import jakarta.persistence.*;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import java.math.BigDecimal;
+
 @Entity
 public class CartData {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String number, holders, month, year, cvv;
-    private float money;
+    private BigDecimal money;
 
     public CartData() {
     }
 
-    public CartData(String number, String holders, String month, String year, String cvv, float money) {
+    public CartData(String number, String holders, String month, String year, String cvv, BigDecimal money) {
         this.number = number;
         this.holders = holders;
         this.month = month;
@@ -71,11 +73,11 @@ public class CartData {
         this.cvv = cvv;
     }
 
-    public float getMoney() {
+    public BigDecimal getMoney() {
         return money;
     }
 
-    public void setMoney(float money) {
+    public void setMoney(BigDecimal money) {
         this.money = money;
     }
 }
