@@ -296,13 +296,13 @@ ul{
 /*<<<in first background<<<*/
 .background{
     margin: 125px 0 0 0;
-    background-image: url("C:/IntelliJ IDEA Community Edition/exchanger_copy/src/main/resources/static/images/backdrop-874452.jpg");
+    background-image: url("/images/backdrop-874452.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .background-withoutmargin{
-    background-image: url("C:/IntelliJ IDEA Community Edition/exchanger_copy/src/main/resources/static/images/backdrop-874452.jpg");
+    background-image: url("/images/backdrop-874452.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
