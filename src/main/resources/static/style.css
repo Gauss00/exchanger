@@ -296,13 +296,13 @@ ul{
 /*<<<in first background<<<*/
 .background{
     margin: 125px 0 0 0;
-    background-image: url("/images/backdrop-874452.jpg");
+    background-image: url("C:/IntelliJ IDEA Community Edition/exchanger_copy/src/main/resources/static/images/backdrop-874452.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .background-withoutmargin{
-    background-image: url("/images/backdrop-874452.jpg");
+    background-image: url("C:/IntelliJ IDEA Community Edition/exchanger_copy/src/main/resources/static/images/backdrop-874452.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -626,7 +626,7 @@ ul{
     font-size: 25px;
     height: 40px;
     text-align: center;
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 .objects1{
@@ -642,7 +642,7 @@ ul{
 
 .object{
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 1.1px;
     width: 400px;
     margin: 1% 20px;
 }
@@ -653,10 +653,11 @@ ul{
 .link{
     width: 400px;
     margin: 0 0 0 20px;
+    color: white;
 }
 
 .astr5{
-    color: white;
+    color: gray;
     font-style: oblique;
 
 }
@@ -683,6 +684,7 @@ ul{
     line-height: 22px;
     font-weight: 800;
     transition: all 400ms ease;
+    margin: 0px 0 10px 0;
 
 }
 .payment-btn:hover {
@@ -718,6 +720,9 @@ ul{
 }
 
 .step-desc_success {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background: #474747;
     color: SeaGreen;
 }
@@ -726,7 +731,7 @@ ul{
     display: flex;
     align-items: flex-start;
     font-family: Andale Mono;
-    font-weight: 700;
+
     font-size: 16px;
     line-height: 160%;
 }
@@ -743,18 +748,21 @@ ul{
 }
 @media (max-width: 1200px){
     .step-desc__ol{
-        font-size: 12px;
+        font-size: 14px;
     }
+
 }
 @media (max-width: 1000px){
     .step-desc__ol{
         font-size: 10px;
     }
+
 }
 @media (max-width: 850px){
     .step-desc__ol{
-        font-size: 7px;
+        font-size: 10px;
     }
+
 }
 @media (max-width: 450px){
     .step-desc__ol{
