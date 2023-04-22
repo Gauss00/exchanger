@@ -30,7 +30,7 @@ header {
   line-height: 0px;
   font-size: 40px;
   align-items: center;
-  font-family: fantasy;
+  font-family: Dancing Script;
 }
 
 .logo-img{
@@ -118,6 +118,20 @@ header nav {
         margin: 0;
         padding: 12px 0px 12px 0px;
     }
+    .html_oper1{
+        display: none;
+    }
+    .html_oper2{
+        display: none;
+    }
+
+}
+@media (max-width: 350px){
+    header a{
+        position: relative;
+        left: -80px;
+    }
+
 
 }
 /*>>> header >>>*/
@@ -164,7 +178,7 @@ footer{
   line-height: 0px;
   font-size: 40px;
   align-items: center;
-  font-family: fantasy;
+  font-family: Vernon Adams;
 
 }
 
@@ -296,13 +310,13 @@ ul{
 /*<<<in first background<<<*/
 .background{
     margin: 125px 0 0 0;
-    background-image: url("/images/backdrop-874452.jpg");
+    background-image: url("C:/IntelliJ IDEA Community Edition/exchanger_copy/src/main/resources/static/images/backdrop-874452.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .background-withoutmargin{
-    background-image: url("/images/backdrop-874452.jpg");
+    background-image: url("C:/IntelliJ IDEA Community Edition/exchanger_copy/src/main/resources/static/images/backdrop-874452.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -758,6 +772,7 @@ ul{
     }
 
 }
+/*
 @media (max-width: 850px){
     .step-desc__ol{
         font-size: 10px;
@@ -772,7 +787,7 @@ ul{
         padding: 12px;
     }
 }
-
+*/
 /* text payment block */
 
 
