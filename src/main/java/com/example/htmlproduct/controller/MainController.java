@@ -9,7 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -25,7 +24,7 @@ public class MainController {
     public MainController(PostRepository postRepository) {
         this.postRepository = postRepository;
     }
-//    private PostRepository postRepository;
+
 
     @GetMapping("/")
     public String main(Model model) {
